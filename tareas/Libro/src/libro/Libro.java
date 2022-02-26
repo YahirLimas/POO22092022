@@ -40,6 +40,8 @@ public class Libro {
         System.out.println("Autor del libro: " + lib1.getAutor() + ".");
         lib1.setFecha(2015);
         System.out.println("Fecha de publicación: 2015" + lib1.getFecha() + ".");
+        lib1.setIdioma("español");
+        System.out.println("El libro está en " + lib1.getIdioma() + ".");
     }
 
     public String getGenero() {
